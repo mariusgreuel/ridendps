@@ -1,0 +1,50 @@
+# EditorConfig: https://editorconfig.org
+
+root = true
+
+[*.{c,h,cpp,hpp,cxx,hxx,inl}]
+charset = utf-8
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.cs]
+charset = utf-8
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{xml,xsl}]
+charset = utf-8
+indent_size = 2
+indent_style = space
+
+[makefile,Makefile]
+charset = utf-8
+indent_size = 4
+indent_style = tab
+
+[*.{txt,md}]
+charset = utf-8
+indent_size = 4
+indent_style = space
+
+[*.{bat,cmd}]
+charset = latin1
+indent_size = 4
+indent_style = space
+end_of_line = crlf
+
+[*.ps1]
+charset = utf-8-bom
+indent_size = 4
+indent_style = space
+end_of_line = lf
+
+[*.sh]
+charset = utf-8
+indent_size = 4
+indent_style = space
+end_of_line = lf
